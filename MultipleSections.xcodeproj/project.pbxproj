@@ -16,6 +16,8 @@
 		F067965123CC618D00FEE63C /* MSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067965023CC618D00FEE63C /* MSection.swift */; };
 		F067965323CC619500FEE63C /* MChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067965223CC619500FEE63C /* MChat.swift */; };
 		F067965523CC61C200FEE63C /* Bundle + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067965423CC61C200FEE63C /* Bundle + Extension.swift */; };
+		F067965A23CC75DC00FEE63C /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067965923CC75DC00FEE63C /* ActiveChatCell.swift */; };
+		F067965C23CC767100FEE63C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067965B23CC767100FEE63C /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F067965023CC618D00FEE63C /* MSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSection.swift; sourceTree = "<group>"; };
 		F067965223CC619500FEE63C /* MChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MChat.swift; sourceTree = "<group>"; };
 		F067965423CC61C200FEE63C /* Bundle + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle + Extension.swift"; sourceTree = "<group>"; };
+		F067965923CC75DC00FEE63C /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
+		F067965B23CC767100FEE63C /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F067965423CC61C200FEE63C /* Bundle + Extension.swift */,
+				F067965B23CC767100FEE63C /* GradientView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				F067963E23CC60EF00FEE63C /* ListViewController.swift */,
+				F067965923CC75DC00FEE63C /* ActiveChatCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,7 +181,9 @@
 				F067965323CC619500FEE63C /* MChat.swift in Sources */,
 				F067963B23CC60EF00FEE63C /* AppDelegate.swift in Sources */,
 				F067963D23CC60EF00FEE63C /* SceneDelegate.swift in Sources */,
+				F067965A23CC75DC00FEE63C /* ActiveChatCell.swift in Sources */,
 				F067965123CC618D00FEE63C /* MSection.swift in Sources */,
+				F067965C23CC767100FEE63C /* GradientView.swift in Sources */,
 				F067965523CC61C200FEE63C /* Bundle + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
